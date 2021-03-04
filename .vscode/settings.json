@@ -1,0 +1,21 @@
+{
+  "workbench.settings.editor": "json",
+  "files.autoSave": "onFocusChange",
+  "git.enabled": true,
+  "prettier.singleQuote": true,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": true,
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    "typescript"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true
+}
