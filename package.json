@@ -2,7 +2,7 @@
   "name": "bookstore",
   "version": "1.0.0",
   "description": "Test API for BookStore",
-  "main": "index.js",
+  "main": "src/server.ts",
   "scripts": {
     "lint": "eslint . --ext .ts",
     "start": "NODE_ENV=production nodemon",
