@@ -5,11 +5,9 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --ext .ts",
-    "start": "NODE_ENV=production node dist/src/server.js",
-    "devStart": "NODE_ENV=dev nodemon dist/src/server.js",
-    "build": "tsc --project ./",
-    "buildStart": "npm run build && npm run start",
-    "buildDev": "npm run build && npm run devStart"
+    "start": "NODE_ENV=production nodemon",
+    "devStart": "NODE_ENV=dev nodemon",
+    "build": "tsc --project ./"
   },
   "keywords": [],
   "author": "khalil",
